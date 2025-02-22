@@ -1,0 +1,67 @@
+:root {
+  --primary: #0F172A;
+  --secondary: #2DD4BF;
+  --accent: #00F0FF;
+  --neutral-1: #F8FAFC;
+  --neutral-2: #CBD5E1;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* In your CSS */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--neutral-1);
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*SignUp style section */
+.form-container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  height: 550px;
+}
+.form-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 2rem;
+}
+.form-title-signup{
+  font-size: 2rem;
+  color: #2d3748;
+  text-align: center;
+}
+.input-control{
+  padding: 1rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  outline: none;
+}
+.signup-btn{
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0984e3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
